@@ -1,0 +1,160 @@
+body {
+	font-family: TimesNewRoman;
+	font-size: 24px;
+}
+
+a {
+	color:red;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left {
+	color: white;
+	background-color: black;
+	flex:0 0 50%;
+	height: 100vh;
+	overflow: scroll;
+	border-width: 0px 0.5px 0px 0px;
+	border-style: solid;
+	border-color: white;
+}
+
+.left-content {
+	padding: 10px;
+}
+
+.right {
+	color: red;
+	background-color: black;
+	flex:0 0 50%;
+	height: 100vh;
+	overflow: scroll;
+	border-width: 0px 0px 0px 0.5px;
+	border-style: solid;
+	border-color: white;
+}
+
+.right-content {
+	padding: 10px;
+}
+
+.right img {
+	width: 100%;
+}
+
+.left img {
+	width: 100%;
+}
+
+
+/*BORDER*/
+.border-left {
+	border-width: 0px 2px 0px 0px;
+	border-style: solid;
+	border-color: white;
+}
+
+.border-right {
+	border-width: 0px 0px 0px 0px;
+	border-style: solid;
+	border-color: white;
+}
+
+/*INDEX*/
+.index-row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border-bottom: 2px solid white;
+	font-style: italic;
+}
+
+.index-row-two {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border-bottom: 2px solid white;
+	font-style: italic;
+}
+
+.index-name {
+	flex: 0 0 60%;
+}
+
+.index-add {
+	flex: 0 0 40%;
+	text-align: right;
+}
+
+.info-link {
+	color: white;
+}
+
+.info-link-two {
+	text-decoration: none;
+}
+
+/*END -- INDEX*/
+
+/*START -- MISC*/
+
+.pad-row {
+	padding: 10px;
+}
+
+.underline {
+	border-bottom: 2px solid white;
+}
+
+.nav {
+	position: fixed;
+	width: 100vw;
+}
+
+.row-s1 {
+	color: white;
+	background-color: black;
+	flex:0 0 100%;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.overflow {
+	background-color: black;
+	flex:0 0 50%;
+	height: 91.3vh;
+	overflow: scroll;
+}
+
+@media only screen and (max-width: 600px) {
+  .overflow {
+  	overflow: visible; 
+  	height: auto;
+  }
+}
+
+/*FONTS*/
+
+.font-header {
+		font-family: TimesNewRoman;
+}
+
+.font-body {
+		font-family: TimesNewRoman;
+}
+
+.font-spice {
+	color: red;
+}
+
+.popup-show {
+	display: block;
+}
